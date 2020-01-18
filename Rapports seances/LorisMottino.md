@@ -48,3 +48,22 @@
 * Pour le problème principal qui était l'absence de châssis, nous y avons pallié en s'occupant d'autres aspects de notre projet tels que la communication RF et une meilleure maîtrise des moteurs.
 * Concernant celui les modules 433MHz, nous avons préféré utiliser un module Bluetooth HC-05.
 * Enfin, nous avons réussi à bien cerner la classe ServoTimer2 afin de l'implémenter dans le code des servomoteurs, et nous avons trouvé des valeurs d'angles en microsecondes pour les trois positions des servomoteurs (gauche, milieu et droit).
+
+
+
+# Rapport de séance du 17/01/2020
+
+## Objectifs de la séance
+* Réaliser des tests sur les moteurs afin de vérifier s'ils se comportent comme prévu, et corriger les éventuels problèmes.
+
+## Tâches effectuées
+* Nous avons effectué des tests sur les deux servomoteurs, qui se sont avérés concluants. En effet, selon la valeur entrée dans le moniteur série, les moteurs s'inclinaient soit vers la gauchr, soit vers la droite, soit au milieu, soit en position de freinage.
+* De plus, nous avons ramené un tube en PVC et des pièces de tuyauterie afin de créer un châssis temporaire pour effectuer des tests plus poussés sur la structure.
+
+## Problèmes rencontrés
+* Étant donné l'absence de moteurs brushless, nous n'avons pas pu tester le code destiné aux propulseurs.
+* Lors de l'oral de cinq minutes, les servomoteurs n'ont pas du tout fonctionné, alors qu'ils marchaient très bien dix minutes avant.
+
+## Solutions aux problèmes
+
+* Concernant l'absence de moteurs brushless pour les tests, nous n'avons rien pu faire et avons donc consacré plus de temps aux tests des servomoteurs et à l'usinage d'un flotteur temporaire.
