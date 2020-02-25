@@ -5,4 +5,38 @@
 
 ## Tâches éffectuées 
 
-*Dans un premier temps pour améliorer la communication entre les modules, j'ai soudé deux antennes aux modules d'une longueur de 17cm 
+*Dans un premier temps pour améliorer la communication entre les modules, j'ai soudé deux antennes aux modules d'une longueur de 17cm.
+
+*Ensuite il a fallu s'isoler pour éviter tout parasitage de la fréquence 433 Mhz, à partir de la j'ai démarré le code.
+
+
+## Code de l'émetteur
+
+#include <VirtualWire_Config.h>
+#include <VirtualWire.h>
+
+const int TX = 10;
+
+void setup() {
+  Serial.begin(9600);
+  vw_set_tx_pin(TX);
+  vw_setup(2000);
+}
+
+void loop() {
+  while (Serial.available()) {
+    byte plain[1];
+    byte message = Serial.read();
+    plain[0] = message;
+    vw_send(plain, 1);
+    vw_wait_tx();
+    Serial.print("Caractère envoyé : ");
+    Serial.println(char(message));
+  }
+}
+
+D'abord on fait appel à la bibliothèque VirtualWire , on déclare le port TX qui est relié à l'arduino.
+
+- void setup 
+
+On initialise le port de l'émetteur et la vitesse de transmission des octets qui est ici de 2000 octets par secondes.
