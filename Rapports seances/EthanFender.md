@@ -25,10 +25,10 @@ void setup() {
 
 void loop() {
   while (Serial.available()) {
-    byte plain[1];
+    byte plain[2];
     byte message = Serial.read();
     plain[0] = message;
-    vw_send(plain, 1);
+    vw_send(plain, 2);
     vw_wait_tx();
     Serial.print("Caractère envoyé : ");
     Serial.println(char(message));
@@ -44,7 +44,7 @@ On initialise le port de l'émetteur et la vitesse de transmission des octets qu
 - void loop 
 
 On fixe une boucle while qui attend que l'utilisateur rentre une valeur dans le moniteur série. 
-On créé un tableau d'octet de 1 octet nommé plain.
+On créé un tableau d'octet de 2 octet nommé plain qui sera composé du message et du caractère signifiant la fin du message ( il ne sera pas pris en compte à la réception).
 Dans ce tableau d'octet on introduit le caractère tapé par l'utilisateur sous forme d'octet.
 Puis on envoie le tableau d'octet au recepteur. 
 
@@ -67,7 +67,7 @@ void loop() {
   vw_wait_rx();
 
   if (vw_get_message(message, &taille_message)) {
-    Serial.println((char*) message);
+    Serial.println((char) message[0]);
   }
 }
 
@@ -77,3 +77,16 @@ On initialise le port de l'émetteur, et la vitesse de transmission des octets p
 
 - void loop
 
+On déclare  qu'on va recevoir un message de la taille d'un octet ( un caractère) et que sa taille est de 1 octet. 
+On attend de recevoir un signal avec vw_wait_rx().
+Puis on utilise un énoncé itératif pour vérifier si le message est corrompu ou pas avec vw_get_message(message, &taille_message)).
+En effet si taille_ message est plus grand que le message alors cela voudrait dire que le message a été parasité durant sa transmission. 
+Si il n'est pas corrompu on affiche le caractère reçu. 
+
+## Problème rencontré 
+
+Je recevait toujours le même caractère dû au fait que je n'ai pas émis un tableau d'octets assez grand comportant le caractère de fin de message. 
+
+## Conclusion 
+
+Le fonctionnement reste analogique peu importe la taille du message, ce code est un prémice au joystick qui controlera par la suite le bateau.
