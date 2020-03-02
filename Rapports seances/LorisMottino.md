@@ -73,7 +73,7 @@
 # Rapport de séance du 10/02/2020
 
 ## Objectifs de la séance
-* Réussir à imprimer des flotteur avec une imprimante personelle. 
+* Réussir à imprimer des flotteurs avec une imprimante personelle. 
 
 ## Tâches éffectuées
 * Dû au fait que les flotteurs étaient de dimensions trop grandes pour les imprimer j'ai dû redimensioner leurs tailles de 85 % de leurs tailles initiales, on alors obtenu un cylindre de 25 cm de longueur et 8,5 cm de diamètre. 
@@ -81,3 +81,8 @@
 
 ## Problèmes rencontrés 
 * Malheureusement après 7 H d'impression le plastique a commencé à fondre et l'impression s'est arrêtée. 
+
+## Solution au problèmes 
+J'ai récupéré un tuyau de PVC de 80 mm  satisfaisant nos conditions mais malheureusement nous n'avons pas trouvé de bouchon pour le rendre étanche (  les tuyaux de 80 mm n'étant pas de taille standard) donc nous allons utiliser les tuyaux de pvc de 100 mm bien plus accessibles et modulables. 
+
+
