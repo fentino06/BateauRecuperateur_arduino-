@@ -67,3 +67,17 @@
 ## Solutions aux problèmes
 
 * Concernant l'absence de moteurs brushless pour les tests, nous n'avons rien pu faire et avons donc consacré plus de temps aux tests des servomoteurs et à l'usinage d'un flotteur temporaire.
+
+
+
+# Rapport de séance du 10/02/2020
+
+## Objectifs de la séance
+* Réussir à imprimer des flotteur avec une imprimante personelle. 
+
+## Tâches éffectuées
+* Dû au fait que les flotteurs étaient de dimensions trop grandes pour les imprimer j'ai dû redimensioner leurs tailles de 85 % de leurs tailles initiales, on alors obtenu un cylindre de 25 cm de longueur et 8,5 cm de diamètre. 
+* J'ai ensuite apposé un support pour le renfocement à la base du flotteur pour permetttre une impression stable avec le flotteur parallèle à la plaque d'impression. 
+
+## Problèmes rencontrés 
+* Malheureusement après 7 H d'impression le plastique a commencé à fondre et l'impression s'est arrêtée. 
