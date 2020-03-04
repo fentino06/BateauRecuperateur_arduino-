@@ -57,7 +57,7 @@
 * Réaliser des tests sur les moteurs afin de vérifier s'ils se comportent comme prévu, et corriger les éventuels problèmes.
 
 ## Tâches effectuées
-* Nous avons effectué des tests sur les deux servomoteurs, qui se sont avérés concluants. En effet, selon la valeur entrée dans le moniteur série, les moteurs s'inclinaient soit vers la gauchr, soit vers la droite, soit au milieu, soit en position de freinage.
+* Nous avons effectué des tests sur les deux servomoteurs, qui se sont avérés concluants. En effet, selon la valeur entrée dans le moniteur série, les moteurs s'inclinaient soit vers la gauche, soit vers la droite, soit au milieu, soit en position de freinage.
 * De plus, nous avons ramené un tube en PVC et des pièces de tuyauterie afin de créer un châssis temporaire pour effectuer des tests plus poussés sur la structure.
 
 ## Problèmes rencontrés
@@ -76,14 +76,14 @@
 * Réussir à imprimer des flotteurs avec une imprimante personelle. 
 
 ## Tâches éffectuées
-* Dû au fait que les flotteurs étaient de dimensions trop grandes pour les imprimer j'ai dû redimensioner leurs tailles de 85 % de leurs tailles initiales, on alors obtenu un cylindre de 25 cm de longueur et 8,5 cm de diamètre. 
+* Dû au fait que les flotteurs étaient de dimensions trop grandes pour les imprimer j'ai dû redimensioner leurs tailles de 85 % de leurs tailles initiales, on a alors obtenu un cylindre de 25 cm de longueur et 8,5 cm de diamètre. 
 * J'ai ensuite apposé un support pour le renfocement à la base du flotteur pour permetttre une impression stable avec le flotteur parallèle à la plaque d'impression. 
 
 ## Problèmes rencontrés 
-* Malheureusement après 7 H d'impression le plastique a commencé à fondre et l'impression s'est arrêtée. 
+* Malheureusement, après 7h d'impression, il y a eu un problème, la structure n'était plus du tout solide. Nous avons finalement dû tout annuler.
 
-## Solution au problèmes 
-J'ai récupéré un tuyau de PVC de 80 mm  satisfaisant nos conditions mais malheureusement nous n'avons pas trouvé de bouchon pour le rendre étanche (  les tuyaux de 80 mm n'étant pas de taille standard) donc nous allons utiliser les tuyaux de pvc de 100 mm bien plus accessibles et modulables. 
+## Solution au problème
+J'ai récupéré un tuyau de PVC de 80 mm, satisfaisant nos conditions mais malheureusement nous n'avons pas trouvé de bouchon pour le rendre étanche (  les tuyaux de 80 mm n'étant pas de taille standard) donc nous allons utiliser les tuyaux de pvc de 100 mm bien plus accessibles et modulables. 
 
 
 # Rapport de séance du 02/03/2020
