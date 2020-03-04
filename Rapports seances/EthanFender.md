@@ -91,4 +91,5 @@ Je recevait toujours le même caractère dû au fait que je n'ai pas émis un ta
 
 Le fonctionnement reste analogique peu importe la taille du message, ce code est un prémice au joystick qui controlera par la suite le bateau.
 
-# Rapport de séance du lundi 02/03/2020
+
+
