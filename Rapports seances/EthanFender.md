@@ -114,7 +114,7 @@ Si il n'est pas corrompu on affiche le caractère reçu.
 
 ## Problème rencontré 
 
-Je recevait toujours le même caractère dû au fait que je n'ai pas émis un tableau d'octets assez grand comportant le caractère de fin de message. 
+Je recevais toujours le même caractère dû au fait que je n'ai pas émis un tableau d'octets assez grand comportant le caractère de fin de message. 
 
 ## Conclusion 
 
@@ -127,5 +127,8 @@ Le fonctionnement reste analogique peu importe la taille du message, ce code est
 Réussir à échanger des informations venant d’un joystick en utilisant une communication RF 433MHz permettant de contrôler le bateau. 
 
 ## Tâches effectuées
-J’ai dû coder tout d’abord le joystick et réussir à envoyer des informations sous forme d’octets. Pour cela, j'ai respectivement connecté les broches X et Y du joystick aux entrées analogiques 0 et 1 de l'Arduino.
+J’ai dû coder tout d’abord le joystick et réussir à envoyer des informations sous forme d’octets. Pour cela, j'ai respectivement connecté les broches X et Y du joystick aux entrées analogiques 0 et 1 de l'Arduino. Les valeurs récupérées sont comprises entre 0 et 1023. Par défaut, lorsque le joystick est au repos, les valeurs x et y valent 511. En effet, lorsque le joystick est incliné à gauche, la valeur x vaut 0, et à droite elle vaut 1023. Et lorsque le joystick est incliné en haut, la valeur y vaut 0, et en bas elle vaut 1023. Ensuite, les données sont envoyées sous la forme d'un tableau d'octets à l'aide de l'émetteur 433MHz. Pour ce faire, j'ai transformé ces valeurs x et y afin x;y en utilisant le code : String(x) + ";" + String(y)
+Puis je les ai converties en tableau d'octets à l'aide de la méthode getBytes() du type String.
+Une fois les données transmises, je convertis le tableau d'octets reçu par le récepteur 433MHz en String à l'aide du code : String((char*)tableau_d_octets)
+J'utilise la méthode indexOf(';') du type String sur cette chaîne de caractère décodée afin de trouver la position du caractère séparateur ';', pour y extraire les deux valeurs X et Y, que je convertis en type entier et que je stocke dans deux variables à traiter plus tard pour l'activation des moteurs.
 
