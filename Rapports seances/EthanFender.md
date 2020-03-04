@@ -1,4 +1,21 @@
-# Rapport de séance du Lundi 10/02/2020
+# Rapport de séance du  13/12/2019
+
+## Objectifs de la séance 
+* Construire le code des servomoteurs pour l'inclinaison des deux gouvernails et donc la direction que prendra le bateau.
+
+## Tâches effectuées 
+* Les codes ont été fait, j'ai aussi incorporéé le code bluetooth en essayant de garder un code aussi générique ue possible pour pouvoi en tout temps modifier les angles minimums et maximums d'inclinaisons et les I/O des servomoteurs. Puis j'ai testé mon code avec un servomoteur.
+Lorsque le bateau avancera les safrans recevront un siggnal de 1,5 ms ( position 90°) en alignement avec le bateau. Cette valeur sera modifiée selon la direction voulue.
+
+## Problèmes possibles
+Les problèmatiques à laquelle on peut s'attendre sont : 
+    * Une marge d'erreur entre les deux servomoteurs
+    * Une marge d'erreur lors du placement des safrans et leurs inclinaisons 
+    
+ 
+
+
+# Rapport de séance du 10/02/2020
 
 ## Objectif de la séance
 *Réussir à faire fonctionner le module 433 Mhz de communication RF.
