@@ -12,7 +12,10 @@ Les problèmatiques à laquelle on peut s'attendre sont :
     * Une marge d'erreur entre les deux servomoteurs
     * Une marge d'erreur lors du placement des safrans et leurs inclinaisons 
     
- 
+# Rapport de séance du 10/01/2020
+
+## Objectifs de la séance 
+* Créer une communication RF 433 MHz pour diriger le bateau, en effet une communication de ce type est bien plus efficae que le bluetooth qui ne porte que de quelques mètres 
 
 
 # Rapport de séance du 10/02/2020
