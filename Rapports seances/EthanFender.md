@@ -121,4 +121,11 @@ Je recevait toujours le même caractère dû au fait que je n'ai pas émis un ta
 Le fonctionnement reste analogique peu importe la taille du message, ce code est un prémice au joystick qui controlera par la suite le bateau.
 
 
+# Rapport de séance du 02/03/2020
+
+## Objectifs de la séance 
+Réussir à échanger des informations venant d’un joystick en utilisant une communication RF 433MHz permettant de contrôler le bateau. 
+
+## Tâches effectuées
+J’ai dû coder tout d’abord le joystick et réussir à envoyer des informations sous forme d’octets. Pour cela, j'ai respectivement connecté les broches X et Y du joystick aux entrées analogiques 0 et 1 de l'Arduino.
 
