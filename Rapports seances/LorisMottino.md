@@ -86,3 +86,20 @@
 J'ai récupéré un tuyau de PVC de 80 mm  satisfaisant nos conditions mais malheureusement nous n'avons pas trouvé de bouchon pour le rendre étanche (  les tuyaux de 80 mm n'étant pas de taille standard) donc nous allons utiliser les tuyaux de pvc de 100 mm bien plus accessibles et modulables. 
 
 
+# Rapport de séance du 02/03/2020
+
+## Objectifs de la séance 
+* Créer le chassîs de notre bateau à partir des tubes de PVC de 10 cm de diamètre 
+
+## Tâches éffectuées 
+* Dans un premier temps il a fallut préparer le deuxième flotteur et vérifier son étanchéité. 
+* Puis j'ai découpé une plaque  rigide de 40 cm de longueur qui se placera au dessus des deux flotteurs. 
+* Ensuite j'ai taraudé des trous dans les deux tubes de PVC pour ensuite y visser la plaque en y ajoutant des boulons pour assurer la stabilité. 
+
+## Problèmes rencontrés 
+* J'ai esssayé au départ de visser une plaque en bois sur les flotteurs sans succès, en effet les trous de la plaque n'était pas aligné avec les trous des flotteurs.
+* Le foret dont j'avais besoin pour tarauder  était celui de 4 mm mais je ne l'ai pas trouvé.
+
+## Solutions aux problèmes 
+* Pour la plaque j'ai donc pris une plaque en plastique rigide à la place plus adaptée à la maquette. 
+* Pour le tauraudage j'ai utilisé un foret de 3,2 mm et je l'ai agrandi manuellement. 
