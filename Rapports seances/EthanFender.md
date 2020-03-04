@@ -17,6 +17,15 @@ Les problèmatiques à laquelle on peut s'attendre sont :
 ## Objectifs de la séance 
 * Créer une communication RF 433 MHz pour diriger le bateau, en effet une communication de ce type est bien plus efficae que le bluetooth qui ne porte que de quelques mètres 
 
+## Tâches éffectuées 
+* J'ai codé et branché la communication RF 
+* J'ai peaufiné les servomoteurs en leurs ajoutant une fonction de freinage 
+* J'ai reconfiguré les servomoteurs aveec la bibliothèque servomoteur 2 pour éviter les interférences  avec la communication rf. 
+
+## Problèmes rencontrés 
+* Il a fallut comprendre que la bibliothèque ServoTimer2 n'utilise que des angles en microsecondes avec servo.write() pour communiquer avec les servos.
+* J'ai eu quelques problèmes de branchement avec la plaque d'essai dont certains ports semblent avoir grillé. 
+
 
 # Rapport de séance du 10/02/2020
 
