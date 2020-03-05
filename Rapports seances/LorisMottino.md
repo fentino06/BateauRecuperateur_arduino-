@@ -83,7 +83,7 @@
 * Malheureusement, après 7h d'impression, il y a eu un problème, la structure n'était plus du tout solide. Nous avons finalement dû tout annuler.
 
 ## Solution au problème
-J'ai récupéré un tuyau de PVC de 80 mm, satisfaisant nos conditions mais malheureusement nous n'avons pas trouvé de bouchon pour le rendre étanche (  les tuyaux de 80 mm n'étant pas de taille standard) donc nous allons utiliser les tuyaux de pvc de 100 mm bien plus accessibles et modulables. 
+J'ai récupéré un tuyau de PVC de 80 mm, répondant à nos exigences, mais malheureusement nous n'avons pas trouvé de bouchon pour le rendre étanche (les tuyaux de 80 mm n'étant pas de taille standard). Nous allons donc utiliser les tuyaux de PVC de 100 mm, bien plus accessibles et modulables. 
 
 
 # Rapport de séance du 02/03/2020
@@ -91,15 +91,15 @@ J'ai récupéré un tuyau de PVC de 80 mm, satisfaisant nos conditions mais malh
 ## Objectifs de la séance 
 * Créer le chassîs de notre bateau à partir des tubes de PVC de 10 cm de diamètre 
 
-## Tâches éffectuées 
-* Dans un premier temps il a fallut préparer le deuxième flotteur et vérifier son étanchéité. 
-* Puis j'ai découpé une plaque  rigide de 40 cm de longueur qui se placera au dessus des deux flotteurs. 
-* Ensuite j'ai taraudé des trous dans les deux tubes de PVC pour ensuite y visser la plaque en y ajoutant des boulons pour assurer la stabilité. 
+## Tâches effectuées 
+* Dans un premier temps il a fallu préparer le deuxième flotteur et vérifier son étanchéité. 
+* J'ai ensuite découpé une plaque rigide de 40 cm par 25 cm qui se placera au dessus des deux flotteurs, afin de les fixer et de permettre de placer la carte Arduino ainsi que la batterie servant à l'alimenter. 
+* J'ai ensuite percé deux trous dans chaque flotteur pour ensuite y visser la plaque en y ajoutant des écrous pour assurer la stabilité et des rondelles en caoutchouc afin de rendre l'ensemble étanche.
 
 ## Problèmes rencontrés 
-* J'ai esssayé au départ de visser une plaque en bois sur les flotteurs sans succès, en effet les trous de la plaque n'était pas aligné avec les trous des flotteurs.
-* Le foret dont j'avais besoin pour tarauder  était celui de 4 mm mais je ne l'ai pas trouvé.
+* J'ai esssayé au départ de visser une plaque en bois sur les flotteurs mais sans succès, en effet les trous de la plaque n'étaient pas alignés avec les trous des flotteurs. De plus, le bois n'est pas forcément le meilleur matériau pour une utilisation marine, il faut le traiter et une plaque de plastique rigide semblait plus adaptée.
+* Le foret dont j'avais besoin pour tarauder était celui de 4 mm, car je comptais utiliser des vis M4, mais je ne l'ai pas trouvé.
 
 ## Solutions aux problèmes 
-* Pour la plaque j'ai donc pris une plaque en plastique rigide à la place plus adaptée à la maquette. 
-* Pour le tauraudage j'ai utilisé un foret de 3,2 mm et je l'ai agrandi manuellement. 
+* Pour la plaque, j'ai donc pris une plaque en plastique rigide à la place plus adaptée à la maquette. 
+* Pour le perçage, j'ai utilisé un foret de 5 mm et des vis M5 avec des écrous adaptés afin de créer des boulons parfaits. 
