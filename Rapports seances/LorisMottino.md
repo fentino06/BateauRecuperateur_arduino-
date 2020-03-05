@@ -65,7 +65,6 @@
 * Lors de l'oral de cinq minutes, les servomoteurs n'ont pas du tout fonctionné, alors qu'ils marchaient très bien dix minutes avant.
 
 ## Solutions aux problèmes
-
 * Concernant l'absence de moteurs brushless pour les tests, nous n'avons rien pu faire et avons donc consacré plus de temps aux tests des servomoteurs et à l'usinage d'un flotteur temporaire.
 
 
@@ -73,33 +72,34 @@
 # Rapport de séance du 10/02/2020
 
 ## Objectifs de la séance
-* Réussir à imprimer des flotteurs avec une imprimante personelle. 
+* Réussir à imprimer des flotteurs avec une imprimante personnelle.
 
 ## Tâches effectuées
-* Dû au fait que les flotteurs étaient de dimensions trop grandes pour les imprimer j'ai dû redimensioner leurs tailles de 85 % de leurs tailles initiales, on a alors obtenu un cylindre de 25 cm de longueur et 8,5 cm de diamètre. 
-* J'ai ensuite apposé un support pour le renfocement à la base du flotteur pour permetttre une impression stable avec le flotteur parallèle à la plaque d'impression. 
+* Dû au fait que les flotteurs étaient de dimensions trop grandes pour les imprimer j'ai dû redimensioner leurs tailles de 85 % de leurs tailles initiales, on a alors obtenu un cylindre de 25 cm de longueur et 8,5 cm de diamètre.
+* J'ai ensuite apposé un support pour le renfocement à la base du flotteur pour permetttre une impression stable avec le flotteur parallèle à la plaque d'impression.
 
-## Problèmes rencontrés 
+## Problèmes rencontrés
 * Malheureusement, après 7h d'impression, il y a eu un problème, la structure n'était plus du tout solide. Nous avons finalement dû tout annuler.
 
-## Solution au problème
-J'ai récupéré un tuyau de PVC de 80 mm, répondant à nos exigences, mais malheureusement nous n'avons pas trouvé de bouchon pour le rendre étanche (les tuyaux de 80 mm n'étant pas de taille standard). Nous allons donc utiliser les tuyaux de PVC de 100 mm, bien plus accessibles et modulables. 
+## Solution aux problèmes
+J'ai récupéré un tuyau de PVC de 80 mm, répondant à nos exigences, mais malheureusement nous n'avons pas trouvé de bouchon pour le rendre étanche (les tuyaux de 80 mm n'étant pas de taille standard). Nous allons donc utiliser les tuyaux de PVC de 100 mm, bien plus accessibles et modulables.
+
 
 
 # Rapport de séance du 02/03/2020
 
-## Objectifs de la séance 
-* Créer le chassîs de notre bateau à partir des tubes de PVC de 10 cm de diamètre 
+## Objectifs de la séance
+* Créer le chassîs de notre bateau à partir des tubes de PVC de 10 cm de diamètre.
 
-## Tâches effectuées 
-* Dans un premier temps il a fallu préparer le deuxième flotteur et vérifier son étanchéité. 
-* J'ai ensuite découpé une plaque rigide de 40 cm par 25 cm qui se placera au dessus des deux flotteurs, afin de les fixer et de permettre de placer la carte Arduino ainsi que la batterie servant à l'alimenter. 
+## Tâches effectuées
+* Dans un premier temps il a fallu préparer le deuxième flotteur et vérifier son étanchéité.
+* J'ai ensuite découpé une plaque rigide de 40 cm par 25 cm qui se placera au dessus des deux flotteurs, afin de les fixer et de permettre de placer la carte Arduino ainsi que la batterie servant à l'alimenter.
 * J'ai ensuite percé deux trous dans chaque flotteur pour ensuite y visser la plaque en y ajoutant des écrous pour assurer la stabilité et des rondelles en caoutchouc afin de rendre l'ensemble étanche.
 
-## Problèmes rencontrés 
+## Problèmes rencontrés
 * J'ai esssayé au départ de visser une plaque en bois sur les flotteurs mais sans succès, en effet les trous de la plaque n'étaient pas alignés avec les trous des flotteurs. De plus, le bois n'est pas forcément le meilleur matériau pour une utilisation marine, il faut le traiter et une plaque de plastique rigide semblait plus adaptée.
 * Le foret dont j'avais besoin pour tarauder était celui de 4 mm, car je comptais utiliser des vis M4, mais je ne l'ai pas trouvé.
 
-## Solutions aux problèmes 
-* Pour la plaque, j'ai donc pris une plaque en plastique rigide à la place plus adaptée à la maquette. 
-* Pour le perçage, j'ai utilisé un foret de 5 mm et des vis M5 avec des écrous adaptés afin de créer des boulons parfaits. 
+## Solutions aux problèmes
+* Pour la plaque, j'ai donc pris une plaque en plastique rigide à la place plus adaptée à la maquette.
+* Pour le perçage, j'ai utilisé un foret de 5 mm et des vis M5 avec des écrous adaptés afin de créer des boulons parfaits.
