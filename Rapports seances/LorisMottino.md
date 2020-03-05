@@ -75,7 +75,7 @@
 ## Objectifs de la séance
 * Réussir à imprimer des flotteurs avec une imprimante personelle. 
 
-## Tâches éffectuées
+## Tâches effectuées
 * Dû au fait que les flotteurs étaient de dimensions trop grandes pour les imprimer j'ai dû redimensioner leurs tailles de 85 % de leurs tailles initiales, on a alors obtenu un cylindre de 25 cm de longueur et 8,5 cm de diamètre. 
 * J'ai ensuite apposé un support pour le renfocement à la base du flotteur pour permetttre une impression stable avec le flotteur parallèle à la plaque d'impression. 
 
