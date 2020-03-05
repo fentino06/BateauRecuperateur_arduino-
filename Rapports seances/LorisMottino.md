@@ -72,34 +72,55 @@
 # Rapport de séance du 10/02/2020
 
 ## Objectifs de la séance
-* Réussir à imprimer des flotteurs avec une imprimante personnelle.
+* Réussir à imprimer des flotteurs avec une imprimante personnelle, et tester leur flottaison et leur étanchéité.
 
 ## Tâches effectuées
-* Dû au fait que les flotteurs étaient de dimensions trop grandes pour les imprimer j'ai dû redimensioner leurs tailles de 85 % de leurs tailles initiales, on a alors obtenu un cylindre de 25 cm de longueur et 8,5 cm de diamètre.
-* J'ai ensuite apposé un support pour le renfocement à la base du flotteur pour permetttre une impression stable avec le flotteur parallèle à la plaque d'impression.
+* Dû au fait que les flotteurs étaient de dimensions trop grandes pour les imprimer j'ai dû redimensioner leurs tailles de 85% de leurs tailles initiales, on a alors obtenu un cylindre de 25cm de longueur et 8.5cm de diamètre.
+* J'ai ensuite apposé un support afin de permetttre une impression stable, en orientant le flotteur vers le haut, par rapport à la plaque d'impression.
 
 ## Problèmes rencontrés
-* Malheureusement, après 7h d'impression, il y a eu un problème, la structure n'était plus du tout solide. Nous avons finalement dû tout annuler.
+* Malheureusement, après 12h d'impression (sur 23h), il y a eu un problème, la structure n'était plus du tout solide. Nous avons finalement dû tout annuler.
 
 ## Solution aux problèmes
-J'ai récupéré un tuyau de PVC de 80 mm, répondant à nos exigences, mais malheureusement nous n'avons pas trouvé de bouchon pour le rendre étanche (les tuyaux de 80 mm n'étant pas de taille standard). Nous allons donc utiliser les tuyaux de PVC de 100 mm, bien plus accessibles et modulables.
+J'ai récupéré un tuyau de PVC de 80mm, répondant à nos exigences, mais malheureusement nous n'avons pas trouvé de bouchon pour le rendre étanche (les tuyaux de 80mm n'étant pas de taille standard). Nous avons donc utilisé les tuyaux de PVC de 100mm, bien plus accessibles et modulables. Après avoir collé les bouchons 100mm aux flotteurs (à l'aide d'une colle à PVC), ces derniers ont réussi les tests de flottaison et d'étanchéité (ils n'ont pas produit de bulle d'air en étant totalement immergés pendant une durée de 2 minutes dans l'eau).
+
+
+
+# Rapport de séance du 17/02/2020
+
+## Objectifs de la séance
+* Créer la télécommande permettant de contrôler le bateau en utilisant les radiofréquences 433MHz.
+* Cette télécommande (une boîte en bois) doit contenir la carte Arduino/Genuino UNO (fournie par moi), un émetteur RF 433MHz (avec antenne), un joystick (fourni par moi), une batterie 9V (fournie par moi), un interrupteur ON/OFF, une LED rouge et les câbles pour connecter tout ça.
+
+## Tâches effectuées
+* Tout d'abord, j'ai créé une boîte en bois aux dimensions 125mm x 75mm x 50mm au FabLab grâce à la graveuse LASER.
+* J'ai ensuite assemblé cette boîte avec de la colle à bois, en laissant la face avant ouverte.
+* J'ai percé un trou sur la face supérieure pour permettre de faire sortir l'antenne de l'émetteur RF, et plusieurs trous sur la face avant afin de faire sortir une partie du joystick, de la LED rouge et du bouton ON/OFF.
+* J'ai branché la batterie à l'Arduino afin de l'alimenter, l'interrupteur entre les deux, et tous les autres composants à l'Arduino.
+* Ainsi, l'Arduino allume la LED rouge dès lors qu'il est actif, et récupère les valeurs X et Y du joystick, qu'il formate pour enfin les transmettre à l'émetteur qui envoie ces données sous forme d'ondes électromagnétiques de fréquence 433MHz.
+
+## Problèmes rencontrés
+* Au départ, nous n'avions pas trouvé d'interrupteur ON/OFF, permettant d'alimenter le système à souhait, ce qui posait un gros problème au niveau de l'utilisation énergétique du système.
+
+## Solutions aux problèmes
+* Je suis allé acheter des interrupteurs ON/OFF dans un magasin d'électronique afin de pouvoir répondre à nos exigences.
 
 
 
 # Rapport de séance du 02/03/2020
 
 ## Objectifs de la séance
-* Créer le chassîs de notre bateau à partir des tubes de PVC de 10 cm de diamètre.
+* Créer le chassîs de notre bateau à partir des tubes de PVC de 10cm de diamètre.
 
 ## Tâches effectuées
 * Dans un premier temps il a fallu préparer le deuxième flotteur et vérifier son étanchéité.
-* J'ai ensuite découpé une plaque rigide de 40 cm par 25 cm qui se placera au dessus des deux flotteurs, afin de les fixer et de permettre de placer la carte Arduino ainsi que la batterie servant à l'alimenter.
+* J'ai ensuite découpé une plaque rigide de 40cm par 25cm qui se placera au dessus des deux flotteurs, afin de les fixer et de permettre de placer la carte Arduino ainsi que la batterie servant à l'alimenter.
 * J'ai ensuite percé deux trous dans chaque flotteur pour ensuite y visser la plaque en y ajoutant des écrous pour assurer la stabilité et des rondelles en caoutchouc afin de rendre l'ensemble étanche.
 
 ## Problèmes rencontrés
 * J'ai esssayé au départ de visser une plaque en bois sur les flotteurs mais sans succès, en effet les trous de la plaque n'étaient pas alignés avec les trous des flotteurs. De plus, le bois n'est pas forcément le meilleur matériau pour une utilisation marine, il faut le traiter et une plaque de plastique rigide semblait plus adaptée.
-* Le foret dont j'avais besoin pour tarauder était celui de 4 mm, car je comptais utiliser des vis M4, mais je ne l'ai pas trouvé.
+* Le foret dont j'avais besoin pour tarauder était celui de 4mm, car je comptais utiliser des vis M4, mais je ne l'ai pas trouvé.
 
 ## Solutions aux problèmes
 * Pour la plaque, j'ai donc pris une plaque en plastique rigide à la place plus adaptée à la maquette.
-* Pour le perçage, j'ai utilisé un foret de 5 mm et des vis M5 avec des écrous adaptés afin de créer des boulons parfaits.
+* Pour le perçage, j'ai utilisé un foret de 5mm et des vis M5 avec des écrous adaptés afin de créer des boulons parfaits.
