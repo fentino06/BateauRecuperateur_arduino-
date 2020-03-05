@@ -4,7 +4,7 @@
 * Construire le code des servomoteurs pour l'inclinaison des deux gouvernails et donc la direction que prendra le bateau.
 
 ## Tâches effectuées 
-* Les codes ont été fait, j'ai aussi incorporéé le code bluetooth en essayant de garder un code aussi générique ue possible pour pouvoi en tout temps modifier les angles minimums et maximums d'inclinaisons et les I/O des servomoteurs. Puis j'ai testé mon code avec un servomoteur.
+* Les codes ont été fait, j'ai aussi incorporé le code bluetooth en essayant de garder un code aussi générique ue possible pour pouvoi en tout temps modifier les angles minimums et maximums d'inclinaisons et les I/O des servomoteurs. Puis j'ai testé mon code avec un servomoteur.
 Lorsque le bateau avancera les safrans recevront un siggnal de 1,5 ms ( position 90°) en alignement avec le bateau. Cette valeur sera modifiée selon la direction voulue.
 
 ## Problèmes possibles
@@ -15,9 +15,9 @@ Les problèmatiques à laquelle on peut s'attendre sont :
 # Rapport de séance du 10/01/2020
 
 ## Objectifs de la séance 
-* Créer une communication RF 433 MHz pour diriger le bateau, en effet une communication de ce type est bien plus efficae que le bluetooth qui ne porte que de quelques mètres 
+* Créer une communication RF 433 MHz pour diriger le bateau, en effet une communication de ce type est bien plus efficace que le bluetooth qui ne porte que de quelques mètres 
 
-## Tâches éffectuées 
+## Tâches effectuées 
 * J'ai codé et branché la communication RF 
 * J'ai peaufiné les servomoteurs en leurs ajoutant une fonction de freinage 
 * J'ai reconfiguré les servomoteurs aveec la bibliothèque servomoteur 2 pour éviter les interférences  avec la communication rf. 
