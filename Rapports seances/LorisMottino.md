@@ -95,7 +95,7 @@ J'ai récupéré un tuyau de PVC de 80mm, répondant à nos exigences, mais malh
 ## Tâches effectuées
 * Tout d'abord, j'ai créé une boîte en bois aux dimensions 125mm x 75mm x 50mm au FabLab grâce à la graveuse LASER.
 * J'ai ensuite assemblé cette boîte avec de la colle à bois, en laissant la face avant ouverte.
-* J'ai percé un trou sur la face supérieure pour permettre de faire sortir l'antenne de l'émetteur RF, et plusieurs trous sur la face avant afin de faire sortir une partie du joystick, de la LED rouge et du bouton ON/OFF.
+* J'ai percé un trou sur la face supérieure pour permettre de faire sortir l'antenne de l'émetteur RF, et plusieurs trous sur la face avant afin de faire sortir une partie du joystick, de la LED rouge et de l'interrupteur ON/OFF.
 * J'ai branché la batterie à l'Arduino afin de l'alimenter, l'interrupteur entre les deux, et tous les autres composants à l'Arduino.
 * Ainsi, l'Arduino allume la LED rouge dès lors qu'il est actif, et récupère les valeurs X et Y du joystick, qu'il formate pour enfin les transmettre à l'émetteur qui envoie ces données sous forme d'ondes électromagnétiques de fréquence 433MHz.
 
