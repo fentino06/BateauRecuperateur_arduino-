@@ -41,28 +41,28 @@ Les problèmatiques à laquelle on peut s'attendre sont :
 
 ## Code de l'émetteur
 
-#include <VirtualWire_Config.h>
-#include <VirtualWire.h>
-
-const int TX = 10;
-
-void setup() {
-  Serial.begin(9600);
-  vw_set_tx_pin(TX);
-  vw_setup(2000);
-}
-
-void loop() {
-  while (Serial.available()) {
-    byte plain[2];
-    byte message = Serial.read();
-    plain[0] = message;
-    vw_send(plain, 2);
-    vw_wait_tx();
-    Serial.print("Caractère envoyé : ");
-    Serial.println(char(message));
-  }
-}
+    #include <VirtualWire_Config.h>
+    #include <VirtualWire.h>
+    
+    const int TX = 10;
+    
+    void setup() {
+      Serial.begin(9600);
+      vw_set_tx_pin(TX);
+      vw_setup(2000);
+    }
+    
+    void loop() {
+      while (Serial.available()) {
+        byte plain[2];
+        byte message = Serial.read();
+        plain[0] = message;
+        vw_send(plain, 2);
+        vw_wait_tx();
+        Serial.print("Caractère envoyé : ");
+        Serial.println(char(message));
+      }
+    }
 
 D'abord on fait appel à la bibliothèque VirtualWire , on déclare le port TX qui est relié à l'arduino.
 
@@ -79,26 +79,26 @@ Puis on envoie le tableau d'octet au recepteur.
 
 ## Code du récepteur 
 
-#include <VirtualWire_Config.h>
-#include <VirtualWire.h>
-
-void setup() {
-  Serial.begin(9600);
-  vw_set_rx_pin(11);
-  vw_setup(2000);
-  vw_rx_start();
-}
-
-void loop() {
-  byte message[1];
-  byte taille_message = 1;
- 
-  vw_wait_rx();
-
-  if (vw_get_message(message, &taille_message)) {
-    Serial.println((char) message[0]);
-  }
-}
+    #include <VirtualWire_Config.h>
+    #include <VirtualWire.h>
+    
+    void setup() {
+      Serial.begin(9600);
+      vw_set_rx_pin(11);
+      vw_setup(2000);
+      vw_rx_start();
+    }
+    
+    void loop() {
+      byte message[1];
+      byte taille_message = 1;
+     
+      vw_wait_rx();
+    
+      if (vw_get_message(message, &taille_message)) {
+        Serial.println((char) message[0]);
+      }
+    }
 
 - void setup 
 
